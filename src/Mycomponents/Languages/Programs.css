@@ -1,0 +1,56 @@
+.Programs{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Programs img{
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+}
+.Programs{
+    flex-basis: 30%;
+}
+.lad1{
+    width: 25%;
+    height: 25%;
+}
+.lad2{
+    width:25% ;
+    height: 25%;
+}
+
+.lad3{
+    width:20% ;
+    height: 20%;
+}
+
+.caption{
+    position: relative;
+    border-radius: 10px;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: -25%;
+background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+   
+    transition: 1s;
+}
+.Programs:hover .caption{
+    opacity: 1;
+
+}
+.Programs:hover {
+    cursor: pointer;
+}
+
